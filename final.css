@@ -1,0 +1,199 @@
+.row
+{
+	position:absolute;
+	width:1300px;
+	//background:#e7e7e7;
+	height:320px;
+}
+.row2
+{
+	position:absolute;
+	top:330px;
+	width:1300px;
+	//background:#aaaaaa;
+	height:340px;
+}
+.row3
+{
+	position:absolute;
+	top:300px;
+	width:1300px;
+	//background:#aaaaaa;
+	height:340px;
+}
+#area1
+{
+	position:absolute;
+	//background:#ffeedd;
+	width:160px;
+	height:320px;
+}
+#area2
+{
+	position:absolute;
+	//background:#ffaadd;
+	left:320px;
+	width:920px;
+	height:320px;
+}
+#rbutton {
+    position:absolute;
+	transition: .5s ease;
+    left: 1150px;
+    top: 330px;
+
+}
+body {
+  font: 10px sans-serif;
+  margin: 0;
+}
+
+path.line {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+path.area {
+  fill: #e7e7e7;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line {
+  stroke: #fff;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+}
+text.shadow {
+	stroke: #fff;
+    stroke-width: 2.5px;
+    opacity: 0.9;
+    }
+    path {
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
+    line {
+        stroke: grey;
+        opacity: 0.5;
+    }
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+    .grid .tick {
+        stroke: lightgrey;
+        opacity: 0.7;
+    }
+    .grid path {
+        stroke-width: 0;
+    }
+    .area {
+        fill: lightsteelblue;
+        stroke-width: 0;
+    }
+    .overlay {
+        fill: none;
+        pointer-events: all;
+    }
+focus circle {
+    fill: green;
+    stroke: steelblue;
+}
+body {
+  font: 10px sans-serif;
+}
+
+.bar {
+  fill: orange;
+}
+
+.bar:hover {
+  fill: orangered ;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.overlay {
+        fill: none;
+        pointer-events: all;
+    }
+    .focus circle {
+        fill: orange;
+        stroke: steelblue;
+    }
+	
+ path {  stroke: #fff; }
+    path:hover {  opacity:0.9; }
+    rect:hover {   }
+    .axis {  font: 10px sans-serif; }
+    .legend tr{    border-bottom:1px solid grey; }
+    .legend tr:first-child{    border-top:1px solid grey; }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .x.axis path {  display: none; }
+    .legend{
+        margin-bottom:76px;
+        display:inline-block;
+        border-collapse: collapse;
+        border-spacing: 0px;
+    }
+    .legend td{
+        padding:4px 5px;
+        vertical-align:bottom;
+    }
+    .legendFreq, .legendPerc{
+        align:right;
+        width:50px;
+    }
